@@ -29,7 +29,7 @@ if __name__ == '__main__':
     params_nn = {
         'layers': 3,
         # サンプルのため早く終わるように設定
-        'nb_epoch': 5,  # 1000
+        'nb_epoch': 1000,  # 5 -> 1000
         'patience': 10,
         'dropout': 0.5,
         'units': 512,
@@ -50,10 +50,10 @@ if __name__ == '__main__':
     runner.run_predict_cv()
     Submission.create_submission('nn1')
 
-    '''
+    # '''
     # (参考）xgboostによる学習・予測 - 学習データ全体を使う場合
     runner = Runner('xgb1-train-all', ModelXGB, features, params_xgb_all)
     runner.run_train_all()
-    runner.run_test_all()
+    runner.run_predict_all()
     Submission.create_submission('xgb1-train-all')
-    '''
+    # '''
