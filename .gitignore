@@ -1,1 +1,8 @@
 .vscode
+*.pyc
+*.zip
+*.csv
+*.model
+*.pkl
+*.h5
+console.log
