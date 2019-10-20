@@ -17,7 +17,7 @@ from util import Util
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '1'
 import tensorflow as tf
-tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
+# tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)    ### AttributeError: module 'tensorflow._api.v1.compat' has no attribute 'v1'
 
 
 class ModelNN(Model):

@@ -1,0 +1,40 @@
+[2019-10-20 11:48:43] - xgb1 - start training cv
+[2019-10-20 11:48:43] - xgb1 fold 0 - start training
+[2019-10-20 11:51:57] - xgb1 fold 0 - end training - score 0.459861874957932
+[2019-10-20 11:51:58] - xgb1 fold 1 - start training
+[2019-10-20 11:55:00] - xgb1 fold 1 - end training - score 0.4537919207272536
+[2019-10-20 11:55:00] - xgb1 fold 2 - start training
+[2019-10-20 11:58:07] - xgb1 fold 2 - end training - score 0.4535650443565
+[2019-10-20 11:58:08] - xgb1 fold 3 - start training
+[2019-10-20 12:00:58] - xgb1 fold 3 - end training - score 0.4757097404663395
+[2019-10-20 12:00:58] - xgb1 - end training cv - score 0.4607321451270063
+[2019-10-20 12:00:59] - xgb1 - start prediction cv
+[2019-10-20 12:01:00] - xgb1 - start prediction fold:0
+[2019-10-20 12:01:10] - xgb1 - end prediction fold:0
+[2019-10-20 12:01:10] - xgb1 - start prediction fold:1
+[2019-10-20 12:01:19] - xgb1 - end prediction fold:1
+[2019-10-20 12:01:19] - xgb1 - start prediction fold:2
+[2019-10-20 12:01:28] - xgb1 - end prediction fold:2
+[2019-10-20 12:01:28] - xgb1 - start prediction fold:3
+[2019-10-20 12:01:37] - xgb1 - end prediction fold:3
+[2019-10-20 12:01:37] - xgb1 - end prediction cv
+[2019-10-20 12:01:39] - nn1 - start training cv
+[2019-10-20 12:01:39] - nn1 fold 0 - start training
+[2019-10-20 12:02:05] - nn1 fold 0 - end training - score 0.5702519164260875
+[2019-10-20 12:02:05] - nn1 fold 1 - start training
+[2019-10-20 12:02:33] - nn1 fold 1 - end training - score 0.5337314896360134
+[2019-10-20 12:02:34] - nn1 fold 2 - start training
+[2019-10-20 12:03:00] - nn1 fold 2 - end training - score 0.5467306282510672
+[2019-10-20 12:03:01] - nn1 fold 3 - start training
+[2019-10-20 12:03:27] - nn1 fold 3 - end training - score 0.5613227062824724
+[2019-10-20 12:03:28] - nn1 - end training cv - score 0.5530091851489101
+[2019-10-20 12:03:29] - nn1 - start prediction cv
+[2019-10-20 12:03:30] - nn1 - start prediction fold:0
+[2019-10-20 12:03:42] - nn1 - end prediction fold:0
+[2019-10-20 12:03:42] - nn1 - start prediction fold:1
+[2019-10-20 12:03:55] - nn1 - end prediction fold:1
+[2019-10-20 12:03:55] - nn1 - start prediction fold:2
+[2019-10-20 12:04:09] - nn1 - end prediction fold:2
+[2019-10-20 12:04:09] - nn1 - start prediction fold:3
+[2019-10-20 12:04:24] - nn1 - end prediction fold:3
+[2019-10-20 12:04:24] - nn1 - end prediction cv
