@@ -64,3 +64,47 @@
 [2019-10-20 12:46:14] - xgb1-train-all - end training all
 [2019-10-20 12:46:14] - xgb1-train-all - start prediction all
 [2019-10-20 12:46:31] - xgb1-train-all - end prediction all
+[2019-10-24 00:55:20] - xgb1 - start training cv
+[2019-10-24 00:55:20] - xgb1 fold 0 - start training
+[2019-10-24 01:00:56] - xgb1 fold 0 - end training - score 0.46042225337619297
+[2019-10-24 01:00:57] - xgb1 fold 1 - start training
+[2019-10-24 01:06:46] - xgb1 fold 1 - end training - score 0.45285227170717574
+[2019-10-24 01:06:46] - xgb1 fold 2 - start training
+[2019-10-24 01:13:47] - xgb1 fold 2 - end training - score 0.45360947565067433
+[2019-10-24 01:13:48] - xgb1 fold 3 - start training
+[2019-10-24 01:19:41] - xgb1 fold 3 - end training - score 0.4763449131999989
+[2019-10-24 01:19:41] - xgb1 - end training cv - score 0.46080722848351047
+[2019-10-24 01:19:42] - xgb1 - start prediction cv
+[2019-10-24 01:19:43] - xgb1 - start prediction fold:0
+[2019-10-24 01:19:57] - xgb1 - end prediction fold:0
+[2019-10-24 01:19:57] - xgb1 - start prediction fold:1
+[2019-10-24 01:20:09] - xgb1 - end prediction fold:1
+[2019-10-24 01:20:09] - xgb1 - start prediction fold:2
+[2019-10-24 01:20:24] - xgb1 - end prediction fold:2
+[2019-10-24 01:20:24] - xgb1 - start prediction fold:3
+[2019-10-24 01:20:35] - xgb1 - end prediction fold:3
+[2019-10-24 01:20:36] - xgb1 - end prediction cv
+[2019-10-24 01:20:39] - nn1 - start training cv
+[2019-10-24 01:20:39] - nn1 fold 0 - start training
+[2019-10-24 01:24:52] - nn1 fold 0 - end training - score 0.4815659165876453
+[2019-10-24 01:24:52] - nn1 fold 1 - start training
+[2019-10-24 01:27:41] - nn1 fold 1 - end training - score 0.4784560186259221
+[2019-10-24 01:27:42] - nn1 fold 2 - start training
+[2019-10-24 01:30:56] - nn1 fold 2 - end training - score 0.47413180736151933
+[2019-10-24 01:30:58] - nn1 fold 3 - start training
+[2019-10-24 01:34:28] - nn1 fold 3 - end training - score 0.49978548860783467
+[2019-10-24 01:34:30] - nn1 - end training cv - score 0.48348480779573033
+[2019-10-24 01:34:30] - nn1 - start prediction cv
+[2019-10-24 01:34:31] - nn1 - start prediction fold:0
+[2019-10-24 01:34:41] - nn1 - end prediction fold:0
+[2019-10-24 01:34:41] - nn1 - start prediction fold:1
+[2019-10-24 01:34:52] - nn1 - end prediction fold:1
+[2019-10-24 01:34:52] - nn1 - start prediction fold:2
+[2019-10-24 01:35:04] - nn1 - end prediction fold:2
+[2019-10-24 01:35:04] - nn1 - start prediction fold:3
+[2019-10-24 01:35:17] - nn1 - end prediction fold:3
+[2019-10-24 01:35:17] - nn1 - end prediction cv
+[2019-10-24 01:35:19] - xgb1-train-all - start training all
+[2019-10-24 01:42:29] - xgb1-train-all - end training all
+[2019-10-24 01:42:29] - xgb1-train-all - start prediction all
+[2019-10-24 01:42:45] - xgb1-train-all - end prediction all
